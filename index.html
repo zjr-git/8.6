@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 菜单开始 -->
+    <div id="#header">
+        <div class="header1 clearfix">
+            <a href="" class="logo">
+                <img src="./imgs/logo1.jpg" alt="">
+            </a>
+
+            <div class="mobile_nav fr">
+                <img src="./imgs/menu.png" width="33">
+            </div>
+
+            <div class="languaget fr">
+                <a href="" target="_blank">
+                    <img src="./imgs/yen.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- banner开始 -->
+
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./imgs/one.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./imgs/two.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./imgs/three.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./imgs/four.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./imgs/five.png" alt="">
+            </div>
+
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal', // 水平切换选项
+            loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            autoplay: {
+                delay: 2000,
+            }
+
+        }) 
+    </script>
+
+
+
+    <!-- 内容开始 -->
+
+    <div class="news container">
+        <div class="news_con fl">
+            <div class="title">
+                <a href="">
+                    <i class="borderR fr">查看更多</i>
+                </a>新闻媒体
+                <div class="borders">
+                </div>
+            </div>
+            <div class="slideTxtBox case_guo fl marT2">
+                <div class="bd">
+                    <ul>
+                        <li>
+                            <div class="project_img">
+                                <div class="imgs">
+                                    <img src="./imgs/202005131419371521.jpg">
+                                </div>
+                                <a href="">
+                                    <div class="news_title_pc ellipsis">精准进攻 | 富思特中标中铁投资集团...</div>
+                                    <div class="news_title ellipsis ">精准进攻 | 富思特中标中铁投资集团17...</div>
+                                </a>
+                                <span class="date">2020-05-13</span>
+                                <div class="news_desc">精准进攻，一线市场再传捷报！富思特中标中铁开发投资集团有限公......</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="picScroll-top case_guo fr marT2">
+                <div class="bd">
+                    <ul class="picList">
+
+                        <li>
+                            <div class="news_desc">
+                                <a href="">
+                                    <div class="news_title ellipsis ">精准进攻 | 富思特中标中铁投资集团1700多万元大单</div>
+                                </a>
+                            </div>
+                            <div class="date">2020-05-13</div>
+                        </li>
+
+                        <li>
+                            <div class="news_desc">
+                                <a href="">
+                                    <div class="news_title ellipsis ">高效服务 | 蝉联四届，富思特获融创中国“双料”优秀供应商
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="date">2020-05-10</div>
+                        </li>
+
+                        <li>
+                            <div class="news_desc">
+                                <a href="">
+                                    <div class="news_title ellipsis ">高效服务 | 首度携手创佳话，富思特入选弘阳地产2019年度优秀供应商
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="date">2020-05-10</div>
+                        </li>
+
+                        <li>
+                            <div class="news_desc">
+                                <a href="">
+                                    <div class="news_title ellipsis ">精准进攻 | 富思特与首创正恒置业签订2020年度“外墙保温供货及涂保一体化施工”战略集采
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="date">2020-05-10</div>
+                        </li>
+
+                        <li>
+                            <div class="news_desc">
+                                <a href="">
+                                    <div class="news_title ellipsis ">精准进攻丨富思特与奥山集团签订2020-2022年度外墙涂料战略集采
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="date">2020-05-10</div>
+                        </li>
+
+                        <li class="disnone">
+                            <div class="news_desc">
+                                <a href="">
+                                    <div class="news_title ellipsis ">富思特室内空间解决方案，洁净空气“双保险”</div>
+                                </a>
+                            </div>
+                            <div class="date">2020-05-10</div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="project fr">
+            <div class="title">总部生产基地VR全景<div class="borders"></div>
+            </div>
+            <a href="http://www.firstnmt.com/fusite_b/" target="_blank">
+                <div class="floor_link marT2">
+                    <img src="./imgs/3viso.jpg">
+                    <div class="project_more">
+                        <img src="./imgs/start.png">
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="clearfix"></div>
+
+    </div>
+
+
+    <!-- 内容2开始 -->
+
+    <div class="bgcolorfa flowhidden padd50 marT5">
+        <div class="about_product container">
+            <div class="title clearfix marT2">
+                <!-- ::before -->
+                <div class="case_name fl">富思特推荐产品</div>
+
+                <a href="">
+                    <i class="borderR fr">查看富思特全产品体系</i></a>
+            </div>
+            <div class="borders"></div>
+            <div class="center">
+                <ul class="marT2">
+                    <!----真石漆------>
+                    <li><a href="" target="_blank">
+                            <img src="./imgs/201801301503552956.jpg">
+                            <div class="titlec">真石漆</div>
+                        </a></li>
+
+                    <!----质感涂料------>
+                    <li><a href=""><img src="./imgs/201801301503552956.jpg">
+                            <div class="titlec">质感涂料</div>
+                        </a></li>
+
+                    <!----液态花岗石------>
+                    <li><a href=""><img src="./imgs/201801301503552956.jpg">
+                            <div class="titlec">液态花岗石</div>
+                        </a></li>
+
+                    <!----石敢当系列------>
+                    <li><a href=""><img src="./imgs/201801301503552956.jpg">
+                            <div class="titlec">石敢当系列</div>
+                        </a></li>
+
+                    <!----仿石灰石涂料------>
+                    <li class="mrgR0"><a href="">
+                            <img src="./imgs/201801301503552956.jpg">
+                            <div class="titlec">德意石（仿石灰石</div>
+                        </a></li>
+
+                    <!----外墙外保温------>
+                    <li><a href="">
+                            <img src="./imgs/201801301503552956.jpg">
+                            <div class="titlec">FS-A级防火保温板</div>
+                        </a></li>
+
+                    <!----保温装饰板------>
+                    <li><a href="">
+                            <img src="./imgs/201801301503552956.jpg">
+                            <div class="titlec">保温装饰板</div>
+                        </a></li>
+
+                    <!----地坪------>
+                    <li><a href="">
+                            <img src="./imgs/201801301503552956.jpg">
+                            <div class="titlec">地坪漆</div>
+                        </a></li>
+
+                    <!----外墙外保温------>
+                    <li><a href="">
+                            <img src="./imgs/201801301503552956.jpg">
+                            <div class="titlec">外墙外保温</div>
+                        </a></li>
+
+                    <!----净霾自洁涂层------>
+                    <li class="mrgR0"><a href="">
+                            <img src="./imgs/201801301503552956.jpg">
+                            <div class="titlec">净霾自洁涂层</div>
+                        </a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 内容3开始 -->
+
+    <div class="bgcolorfa flowhidden padd50">
+        <!------------------------------------------->
+        <div class="about_com container bgcolorff borderf3 marH">
+            <div class="about_con fl">
+                <ul>
+                    <div class="title">
+                        走进富思特
+                        <span>国家建筑涂料标准副主编单位</span>
+                        <div class="borders"></div>
+                    </div>
+
+                </ul>
+
+                <img src="./imgs/gongsi.jpg" alt="公司介绍">
+
+            </div>
+
+            <div class="leader_con fl">
+                <div class="leader_img fl">
+                    <a href="" class="">
+                        <img src="" class="displayone"></a>
+                    <div class="con">
+                        <div class="titles">郭祥恩董事长
+                            <div class="borders"></div>
+                        </div>
+                        富思特新材料科技发展股份有限公司董事长、北京红狮漆业有限公司董事长。主要任职中国涂料工业协会副会长、中国建筑装饰装修材料协会副会长、中国建筑装饰协会涂料与防水材料分会副会长、
+                        中国建筑装饰协会常务理事...
+                        <div class="marT2">
+                            <a href="" class="">
+                                <i class="borderR">查看更多</i></a></div>
+                    </div>
+                </div>
+                <div class="leader_img fl pcnone displayone">
+                    <img src="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- 内容4开始 -->
+
+        <section id="mainbody" class="container">
+            <div class="inlink  marH" style="padding: 0">
+
+                <img src="./imgs/ytx1.jpg" style="display: block;width: 100%;">
+            </div>
+        </section>
+
+        <!-- 尾部开始 -->
+
+        <footer id="footer">
+            <div class="container">
+                <div class="footer1 clearfix">
+                    <div class="footer_right">
+                        <div class="title">
+                            富思特新材料科技发展股份有限公司
+                        </div>
+                        <div class="border">
+
+                        </div>
+
+
+                        <ul>
+                            <li>电话：400-666-5100</li>
+                            <li>传真：010-67623268</li>
+                            <li>邮箱：<a href="">master@firstnmt.com</a></li>
+                            <li>地址：北京市大兴区安定镇安定南街4号</li>
+                            <li>邮编：100176</li>
+                        </ul>
+                    </div>
+
+                    <ul class="footer_ewm">
+                        <li>
+                            <div class="img"><img src="./imgs/wei.jpg" alt="微信">
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer_copy clearfix">
+                <div class="container">
+                    <div class="fotnav">
+                        <a href="" class="bot_link">联系富思特
+
+                        </a> &nbsp; |&nbsp;
+                        <a href="" class="bot_link">诚聘英才</a>
+                     </div>
+                    <p>Copyright 富思特新材料科技发展股份有限公司. All Rights Reserved. www.firstnmt.com
+                        <a href="">网站地图</a><br>
+                        <a href="" class="bot_link">京ICP备14029331号</a> 京公网安备11030102000582号 <br>
+                        <strong>真石漆,外墙真石漆,真石漆厂家,十大涂料品牌,一体化保温装饰板,反射隔热涂料,建筑涂料
+                            <a href="">纳米除甲醛</a>
+                            <a href="">疾速除甲醛</a><br>
+                            友情链接：<a href="">防静电地板</a>
+                            <a href="">不锈钢冷却塔</a>
+                            <a href="">液压卡盘</a>
+                        </strong></p>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="find"></div>
+
+
+
+       
+        <div class="actGotop" style="display: block;">
+            <a href="javascript:;">
+                <img src="imgs/upupup.png">
+            </a>
+        </div>
+        <script src="js/animate3.js"></script>
+        <script>
+            var zero=document.querySelector(".actGotop");
+             //滚动事件
+             window.onscroll = function () {
+                   var st = document.documentElement.scrollTop;//获取滚动条位置
+                   if (st > 200) {
+                       //search.style.top=0;俩种方法设置滚动条
+                       animate(zero, {
+                           top: 588
+                       }, 300)
+                   }
+                   else {
+                       //search.style.top=-50+"px";俩种方法设置滚动条
+                       animate(zero, {
+                           top: 0
+                       }, 300)
+                   }
+                   if (st > 400) {
+                       // nav.style.width="50px"
+                       // nav.style.height="300px"
+                       zero.style.transform = "scale(1,1)";
+                       zero.style.opacity = 1;
+                   } else {
+                       // nav.style.winth="0px"
+                       // nav.style.height="0px"
+                       zero.style.transform = "scale(0,0)"
+                       zero.style.opacity = 0;
+                   }
+               }
+       
+              
+               zero.onclick = function () {
+                   animate(document.documentElement, {
+                       scrollTop: 0
+                   }, 500)
+               }
+              
+               
+        </script>
+
+</body>
+
+</html>

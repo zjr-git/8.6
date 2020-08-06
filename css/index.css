@@ -1,0 +1,555 @@
+body{
+    font-weight: normal;
+    margin: 0;
+    display: block;
+} 
+
+div{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+body, button, input, select, textarea {
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    color: #101010;
+    font-size: 14px;
+    background: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #303030;
+}
+
+a:-webkit-any-link{
+    cursor: pointer;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border:0
+}
+
+ul,li{
+    list-style: none;
+}
+*{
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+}
+/* 菜单开始 */
+#header{
+    display: block;
+    width: 100%;
+    background: #fff;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 600;
+    font-size: 12px;
+}
+
+.header1 {
+    height: 55px;
+    border-bottom: none;
+    padding: 0 4%;
+}
+
+.clearfix{
+    zoom:1
+}
+
+.logo {
+    height: 55px;
+    background: url(../imgs/logo.png) no-repeat center;
+    background-size: 100%;
+    margin: 0;
+    left: 5px;
+    display: block;
+    width: 120px;
+    position: absolute;
+    /* top: 10%; */
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.mobile_nav {
+    display: block;
+    width: 25px;
+    height: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.fr{
+    float: right;
+}
+
+.languaget{
+    display: block;
+    width: 32px;
+    height: 30px;
+    margin-top: 13px;
+    cursor: pointer;
+    text-align: left;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+    margin: 0;
+    padding: 0;
+}
+/* 内容开始 */
+
+.container{
+    width: auto;
+    padding: 0px 20px;
+    font-size: 12px;
+    max-width: 1300px;
+}
+
+.news {
+    margin: 0px auto;
+    padding-top: 30px;
+}
+
+
+
+.news_con{
+    width: 100%;
+}
+
+.fl{
+    float: left;
+}
+
+.title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #002870;
+}
+
+.news i {
+    width: 85px;
+    height: 25px;
+    line-height: 25px;
+    font-weight: normal;
+    display: block;
+    text-align: center;
+    background: #002870;
+    font-size: 12px;
+    color: #fff;
+    font-style: normal;
+}
+
+.borders {
+    border-top: 1px solid;
+    border-color: #e9e9e9;
+    height: 1px;
+    margin: 5px 0px;
+    position: relative;
+}
+
+.borders:before {
+    background-color: #002870;
+    border: 0px ridge #fff;
+    content: "";
+    height: 1px;
+    left: 0%;
+    margin-left: 0px;
+    margin-top: -1px;
+    position: absolute;
+    top: 0px;
+    width: 105px;
+}
+
+.about_con, .leader_con, .leader_img, .case_guo, .case_ao {
+    width: 100%;
+}
+
+.marT2{
+    margin-top: 10px;
+}
+.slideTxtBox{
+    text-align: left;
+}
+
+.slideTxtBox .bd ul {
+    zoom: 1;
+    overflow: hidden;
+    padding: 0;
+}
+
+.slideTxtBox .bd li {
+    width: 100%;
+    line-height: 24px;
+}
+
+.preject_img{
+    padding: 1px;
+    border: 1px solid #f2f2f2;
+}
+
+.slideTxtBox .bd li img {
+    height: auto;
+    margin-bottom: 2%;
+    max-height: 220px;
+    text-align: center;
+}
+
+.slideTxtBox .bd li .news_title_pc {
+    color: #002870;
+    font-size: 14px;
+    margin: 0px 5px 1% 5px;
+}
+
+.ellipsis{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0px 5px 1% 5px;
+}
+
+.news_title_pc{
+    display: none;
+}
+
+.slideTxtBox .bd li .news_title {
+    display: block;
+    color: #002870;
+}
+
+.news_title {
+    font-size: 12px !important;
+    margin: 0px 0px 5px 0px !important;
+}
+
+.slideTxtBox .bd li .date {
+    color: #4b9100;
+    font-size: 14px;
+    margin: 0px 5px 1% 5px;
+}
+
+.slideTxtBox .bd li{
+    line-height: 24px;
+}
+
+.slideTxtBox .bd li .news_desc {
+    margin: 0px 5px 1% 5px;
+    line-height: 22px;
+}
+
+.about_con, .leader_con, .leader_img, .case_guo, .case_ao {
+    width: 100%;
+}
+
+.picScroll-top {
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.marT2{
+    margin-top: 10px;
+}
+
+.picScroll-top .bd{
+    padding: 0 0;
+}
+
+.picScroll-top .bd ul {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.picScroll-top .bd ul li {
+    text-align: left;
+    zoom: 1;
+    padding: 5px 0px;
+    border-bottom: 1px dotted #e9e9e9;
+}
+
+.picScroll-top .bd ul li .news_desc {
+    font-size: 12px;
+    margin: 0 0;
+}
+
+.picScroll-top .bd ul li .news_title {
+    color: #000;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.picScroll-top .bd ul li .date {
+    font-size: 12px;
+    color: #858585;
+    display: block;
+}
+
+.project{
+    width: 100%;
+    overflow: hidden;
+}
+
+.floor_link img {
+    display: block;
+    transition: all 1s ease-out 0s;
+    z-index: 1;
+}
+.project_more {
+    position: absolute;
+    bottom: -31%;
+    text-align: center;
+    z-index: 10;
+    left: 50%;
+    margin-left: -100px;
+}
+
+/* 内容2开始 */
+
+.padd50{
+    padding: 15px 0px;
+}
+
+.marT5{
+    margin-top: 15px;
+}
+
+.bgcolorfa{
+    background: #fafafa;
+}
+
+/* .flowhidden{
+    overflow: hidden;
+} */
+
+.about_product{
+    overflow: hidden;
+}
+
+.case_name{
+    display: inline;
+    padding-right: 15px;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.about_product i {
+    display: block;
+    width: 145px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #002870;
+    font-size: 12px;
+    color: #fff;
+    font-style: normal;
+}
+
+.borderR{
+    border-radius: 2px;
+}
+
+.title{
+    font-size: 16px;
+}
+
+.marT2{
+    margin-top: 10px;
+}
+
+.borders:before {
+    background-color: #002870;
+    border: 0px ridge #fff;
+    content: "";
+    height: 1px;
+    left: 0%;
+    margin-left: 0px;
+    margin-top: -1px;
+    position: absolute;
+    top: 0px;
+    width: 105px;
+}
+.borders {
+    border-top: 1px solid;
+    border-color: #e9e9e9;
+    height: 1px;
+    margin: 5px 0px;
+}
+
+.about_product ul li {
+    width: 47.4%;
+    display: block;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.about_product ul li .titlec {
+    font-size: 12px;
+}
+
+.about_product ul li .titlec {
+    width: 100%;
+    z-index: 4;
+    position: absolute;
+    bottom: 0px;
+    top: auto;
+    height: 50px;
+    background: rgba(0,0,0,0.5);
+    left: 0px;
+    padding-top: 0px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;
+}
+
+/* 内容3开始 */
+
+.title span {
+    font-size: 12px;
+    display: block;
+    line-height: 24px;
+    color: #101010;
+}
+
+.leader_con .titles {
+    font-size: 16px;
+    font-weight: bold;
+    color: #002870;
+}
+
+.leader_con .con {
+    font-size: 12px;
+    line-height: 22px;
+    margin: 10px;
+}
+
+.leader_con i {
+    display: block;
+    width: 105px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #4f93ba;
+    font-size: 12px;
+    color: #fff;
+    font-style: normal;
+}
+
+/* 内容4开始 */
+.marH{
+    margin: 10px 0px;
+}
+
+.inlink{
+    padding: 15px 10px  !important;
+    background: #fafafa;
+    border: 1px solid #f2f2f2;
+    overflow: hidden;
+}
+
+/* 尾部开始 */
+.footer_right {
+    width: 100%;
+    float: none;
+    margin: 0 0 18px 0;
+}
+
+.footer_right .title {
+    font-size: 15px;
+    color: #000;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.footer_right ul {
+    width: 100%;
+}
+
+.footer_right ul li {
+    line-height: 22px;
+    font-size: 12px;
+}
+
+.footer-ewm{
+    width: 100%;
+    float: none;
+}
+
+.footer-ewm li{
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+
+.footer_ewm .img {
+    background: #fff;
+    padding: 5.5%;
+}
+
+.footer_ewm img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_copy{
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 22px;
+    background: #1f252a;
+}
+.footer_copy .fotnav {
+    float: right;
+}
+.bot_link:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer_copy p {
+    float: none;
+}
+
+.footer_copy a{
+    color: #fff;
+}
+b, strong, .bold {
+    font-weight: bold;
+}
+
+.find{
+    height: 106.75px;
+    width: 93.8px;
+   
+    right: 5px;
+    top: 50%;
+    left: auto;
+    bottom: auto;
+    transform: translateY(-50%);
+    position: fixed;
+    background:url(../imgs/module-bg-0.png) #00aef3 center center no-repeat;
+    background-size: 50px;
+}
+
+.actGotop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    z-index: 9;
+}
